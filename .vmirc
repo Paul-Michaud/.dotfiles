@@ -1,0 +1,3 @@
+# Set relative line number
+set number relativenumber
+set nu rnu
