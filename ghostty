@@ -1,0 +1,61 @@
+font-family = Fira Code Semibold
+# k8s symbol
+font-codepoint-map = U+2638="Fira Code Semibold"
+font-size = 12
+theme = Dracula
+shell-integration-features = no-cursor
+
+window-padding-x = 5
+window-padding-y = 5
+window-padding-balance = true
+window-padding-color = background
+gtk-titlebar = false
+window-title-font-family = Fira Code Semibold
+window-theme = ghostty
+adw-toolbar-style = flat
+window-subtitle = working-directory
+gtk-single-instance = true
+#custom-shader = "/home/nvnn2318/Documents/tools/ghostty-shaders/bloom2.glsl"
+
+
+# keybindings
+
+## split
+keybind = alt+$=new_split:down
+keybind = alt+ù=new_split:right
+
+## split movements
+keybind = alt+right=goto_split:right
+keybind = alt+left=goto_split:left
+keybind = alt+down=goto_split:down
+keybind = alt+up=goto_split:up
+
+## split zoom
+keybind = alt+kp_add=increase_font_size:2
+keybind = alt+kp_subtract=reset_font_size
+
+## resize split
+keybind = alt+shift+up=resize_split:up,15
+keybind = alt+shift+down=resize_split:down,15
+keybind = alt+shift+left=resize_split:left,15
+keybind = alt+shift+right=resize_split:right,15
+
+## scroll
+keybind = alt+page_up=scroll_page_fractional:-0.5
+keybind = alt+page_down=scroll_page_fractional:0.5
+
+## tab
+keybind = alt+t=new_tab
+keybind = alt+&=goto_tab:1
+keybind = alt+é=goto_tab:2
+keybind = alt+"=goto_tab:3
+keybind = alt+'=goto_tab:4
+keybind = alt+(=goto_tab:5
+
+## 
+keybind = alt+j=write_scrollback_file:paste
+keybind = alt+p=toggle_command_palette
+
+## Commands
+
+keybind = alt+r=text:alias ll='ls -altr --color'
