@@ -1,2 +1,8 @@
 set number relativenumber
 set nu rnu
+
+call plug#begin()
+Plug 'Eliot00/git-lens.vim'
+call plug#end()
+
+let g:GIT_LENS_ENABLED=1
